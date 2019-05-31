@@ -16676,6 +16676,10 @@ body {
   left: 1.125rem;
 }
 
+.parent--1O7bX {
+  cursor: pointer;
+}
+
 :root {
   --primaryFont: Lato, sans-serif;
 }
