@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileSelector component should pass props to the input 1`] = `
+<label
+  disabled={false}
+  role="button"
+>
+  <span>
+    Click me
+  </span>
+  <input
+    accept="image/*"
+    hidden={true}
+    multiple={false}
+    onChange={[Function]}
+    type="file"
+  />
+</label>
+`;
+
+exports[`FileSelector component should render a default file selector 1`] = `
+<label
+  disabled={false}
+  role="button"
+>
+  <input
+    hidden={false}
+    multiple={false}
+    onChange={[Function]}
+    type="file"
+  />
+</label>
+`;
+
+exports[`FileSelector component should render a disabled file selector 1`] = `
+<label
+  disabled={true}
+  role="button"
+>
+  <span>
+    Click me
+  </span>
+  <input
+    hidden={true}
+    multiple={false}
+    onChange={[Function]}
+    type="file"
+  />
+</label>
+`;
+
+exports[`FileSelector component should render a file selector 1`] = `
+<label
+  disabled={false}
+  role="button"
+>
+  <span>
+    Click me
+  </span>
+  <input
+    hidden={true}
+    multiple={false}
+    onChange={[Function]}
+    type="file"
+  />
+</label>
+`;
